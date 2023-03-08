@@ -1,0 +1,102 @@
+/* custom styles for the header */
+.navbar {
+  background-color: #333;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.nav-link {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* custom styles for the content */
+.container {
+  margin-top: 2rem;
+}
+
+.car-image {
+  max-width: 100%;
+  height: auto;
+  border: 10px solid #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.car-details {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+/* custom styles for the contact form */
+.form-container {
+  margin-top: 2rem;
+}
+
+.form-label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
+}
+
+.form-control {
+  height: 3rem;
+  font-size: 1.2rem;
+  border-radius: 0;
+  border-color: #333;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #d32f2f;
+}
+
+.form-control::placeholder {
+  color: #999;
+}
+
+.form-textarea {
+  height: 10rem;
+  font-size: 1.2rem;
+  border-radius: 0;
+  border-color: #333;
+  box-shadow: none;
+}
+
+.form-button {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  padding: 0.75rem 2.5rem;
+  background-color: #d32f2f;
+  border-color: #d32f2f;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.form-button:hover {
+  background-color: #b71c1c;
+  border-color: #b71c1c;
+}
+
+/* custom styles for the footer */
+footer {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  background-color: #333;
+  color: #fff;
+}
+
+.footer-text {
+  font-size: 1rem;
+  text-align: center;
+}
